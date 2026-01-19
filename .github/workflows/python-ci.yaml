@@ -19,7 +19,7 @@ jobs:  # הגדרת המשימות שיבוצעו ב-CI
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'  # התקנת פייתון בגרסה 3.11 בסביבת ה-runner
+        python-version: '3.12'  # התקנת פייתון בגרסה 3.11 בסביבת ה-runner
 
     - name: Install dependencies
       run: |
