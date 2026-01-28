@@ -16,3 +16,7 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
+
+def test_stam():
+    assert add(2, 3) == 10
+    assert subtract(5, 3) == 4
